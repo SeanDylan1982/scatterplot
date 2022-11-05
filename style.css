@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+*{
+    font-family: 'Crimson Pro', serif;
+}
+
+html{
+    height: 100%
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+svg{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+    padding: 10px;
+}
+.bar{
+    background-color: seagreen;
+    border-color: seagreen;
+    fill:seagreen;
+}
+.dot:hover{
+    fill: black;
+}
+g{
+    color: dimgray;
+}
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    color: rgb(63, 62, 62);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#title{
+    font-size: 30px;
+    fill: rgb(63, 62, 62);
+    text-transform: uppercase;
+}
+#legend{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
